@@ -6,6 +6,7 @@ import authRoute from './Routers/authRouter.js'
 import userRoute from './Routers/userRouter.js'
 import cookieParser from "cookie-parser";
 import postRoute from "./Routers/postRouter.js"
+
 dotenv.config();
 
 const app = express();
